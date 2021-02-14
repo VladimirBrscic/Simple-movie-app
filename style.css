@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Condensed';
+  background-color: #000;
+  color: #fff;
+}
+#main{
+padding: 15px;
+}
+h1{
+  font-size: 3em;
+  font-weight: 400;
+}
+#search-form{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ height: 220px;
+ padding: 20px 0;
+ border-bottom: 2px solid #fff;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+.btn{
+  width: 60%;
+  padding: 5px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #fff;
+  border: none;
+  outline: none;
+}
+input{
+  padding: 5px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+}
+#results{
+  margin-top: 30px;
+  padding: 20px 35px;
+  position: relative;
+}
+#results .total-pages{
+  margin-bottom: 20px;
+}
+#results .title{
+  padding: 5px;
+  cursor: pointer;
+}
+#movie-details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  min-height: 100%;
+  padding: 20px 15px 40px 15px;;
+}
+#movie-details p{
+  padding: 5px;
+}
+#movie-details a{
+  color: #fff;
+  text-decoration: none;
+}
+#movie-details .fa-times{
+  color: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pages{
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+.pages{
+  display: flex;
+  justify-content: space-between;
+}
+.pages a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+.pages p{
+  display: inline-block;
+}
